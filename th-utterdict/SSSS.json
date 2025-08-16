@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug test_thwbrk",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/test_thwbrk",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "preLaunchTask": "build",
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
+      }
+    }
+  ]
+}
